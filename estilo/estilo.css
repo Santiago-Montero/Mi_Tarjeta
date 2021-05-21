@@ -1,6 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ruda&display=swap');
 *{
-    background-color: aquamarine;
+    font-family: 'Ruda', sans-serif;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
 }
 .itemNav {
     list-style: none;
+}
+.navTitulo{
+    z-index: 2;
+}
+.nav li{
+    z-index: 2;
+}
+/*
+
+*/
+.olasCelestesClarasDown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.olasCelestesClarasDown svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 186px;
+}
+
+.custom-shape-divider-bottom-1621624693 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1621624693 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 277px;
+}
+
+.custom-shape-divider-bottom-1621624693 .shape-fill {
+    fill: #04B2D9;
+}
+/*
+
+*/
+
+.footerGlobal{
+    position: relative;
+}
+.home {
+    margin-top: 100px;
+}
+.homeTexto {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.homeImg {
+    display: flex;
+    flex-flow: row wrap;
+}
+.homeImg img{
+    width: 716px;
+    height: auto;
+    z-index: 3;
+}
+.tarjetaDescripcion2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tarjetaDescripcion2 img{
+    width: 500px;
+    height: auto;
+}
+.seguridad h2{
+    padding-left: 30px
+}
+.pasoTexto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.seguridadTexto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+.seguridadImg {
+    display: flex;
+    flex-flow: row wrap;
+}
+.seguridadImg img{
+    width: 600px;
+    height: auto;
 }

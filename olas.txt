@@ -1,0 +1,75 @@
+<!-- INTRUSCTIVO -->
+    <img class="olasCelestesClarasUp" src="./img/olastranspaa.svg" alt="">
+    <div class="instruc">
+        <h2>Como Tener MI Tarjeta</h2>
+        <div class="pasos container">
+            <div class="pasosDescrip container row">
+                <div class="paso col-3">
+                    <div class="pasoImg">
+                        <img src="./img/web.png" alt="">
+                    </div>
+                    <div class="pasoTexto">
+                        <p>Primer paso: Pedi tu tarjeta por nuestra web</p>
+                    </div>
+                </div>
+                <div class="segundoPaso col-3">
+                    <div class="pasoImg">
+                        <img src="./img/completardatos.png" alt="">
+                    </div>
+                    <div class="pasoTexto">
+                        <p>Segundo paso: Completá el registro con tus datos desde la app.</p>
+                    </div>
+                </div>
+                <div class="tercerPaso col-3">
+                    <div class="pasoImg">
+                        <img src="./img/auto.png" alt="">
+                    </div>
+                    <div class="pasoTexto">
+                        <p>Tercer paso: Recibí tu tarjeta dentro de los 15 días</p>
+                    </div>
+                </div>
+                <div class="cuartoPaso col-3">
+                    <div class="pasoImg">
+                        <img src="./img/tarjetita.png" alt="">
+                    </div>
+                    <div class="pasoTexto">
+                        <p>Cuarto paso: ¡Activá tu tarjeta desde la app y cargá saldo para empezar a usarla!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+/****************/
+.instruc{
+    padding-top: 10px;
+    background-color:#CCF0F8 ;
+}
+.instruc h2{
+    padding-left: 30px
+}
+.pasos{
+    height: auto;
+    background-color:#CCF0F8 ;
+}
+.pasoImg{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: auto;
+    width: 200px;
+}
+.pasoImg img{
+    height: auto;
+    width: 100px;
+}
+.primerPaso{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
