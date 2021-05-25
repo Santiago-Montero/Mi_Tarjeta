@@ -60,14 +60,13 @@ h1,h2{
     background-color: #04B2D9;
 }
 .home {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .homeTexto {
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+    flex-flow: column wrap;
     text-align: center;
+    justify-content: center;
 }
 .homeImg {
     display: flex;
@@ -78,6 +77,15 @@ h1,h2{
     height: auto;
     z-index: 3;
 }
+.googleApple{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.logoApp{
+    width: 150px;
+    height: auto;
+}
 .tarjeta{
     background-color: #F24C27;
 }
@@ -87,7 +95,7 @@ h1,h2{
 .tarjetaDescripcion1{
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .tarjetaDescripcion2{
@@ -96,6 +104,34 @@ h1,h2{
     justify-content: center;
 }
 .tarjetaDescripcion2 img{
+    width: 400px;
+    height: auto;
+}
+.tarjetaDescripcionTexto{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+}
+.tarjetaIconos{
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+}
+.contenedorTarjeta{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0; 
+}
+.cajaTarjeta {
+    position: relative;
+    width: 400px;
+    height:  261px;
+}
+.cajaTarjetaImgen{
     width: 400px;
     height: auto;
 }
@@ -125,6 +161,11 @@ h1,h2{
 .seguridadImg img{
     width: 600px;
     height: auto;
+}
+.seguridadIconos{
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
 }
 
 /* descripcion */ 
@@ -177,6 +218,71 @@ h1,h2{
     flex-flow: row wrap;
     justify-content: center;
     color: white;
+}
+
+.precios{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.preciosTitulo{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+.preciosDescripcion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.preciosDescripcionCajas{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.caja{
+    margin-top: 10px;
+    width: 450px;
+    border-radius: 1rem;
+    box-shadow: -5px 5px 10px 0.2px  rgb(172, 131, 131);
+    background-color: #F24C27;
+}
+.caja2 {
+    margin-top: 10px;
+    width: 450px;
+    border-radius: 1rem;
+    box-shadow: -5px 5px 10px 0.2px  rgb(172, 131, 131);
+    background-color: #04B2D9;
+}
+.caja3 {
+    margin-top: 10px;
+    width: 450px;
+    border-radius: 1rem;
+    box-shadow: -5px 5px 10px 0.2px  rgb(172, 131, 131);
+    background-color: #F29F05;
+}
+.cajaTitulo{
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cajaTitulo button{
+    border: none;
+    outline:none;
+}
+.cajaTexto{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.preciosDescripcionImg img{
+    width: 500px;
+    height: auto;
 }
 /* Responsive */ 
 @media  (max-width:795px){
