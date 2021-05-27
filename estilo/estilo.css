@@ -68,14 +68,19 @@ h1,h2{
     text-align: center;
     justify-content: center;
 }
+.homeTextoTitulo p{
+    font-size: 80px;
+    font-family:'Fredoka One';
+}
+
 .homeImg {
     display: flex;
     flex-flow: row wrap;
 }
 .homeImg img{
-    width: 716px;
+    width: 90%;
     height: auto;
-    z-index: 3;
+    z-index: 2;
 }
 .googleApple{
     display: flex;
@@ -114,9 +119,9 @@ h1,h2{
     text-align: center;
 }
 .tarjetaIconos{
-    width: 30px;
+    width:50px;
     height: auto;
-    margin-left: 5px;
+    margin:10px;
 }
 .contenedorTarjeta{
     position: relative;
@@ -128,25 +133,11 @@ h1,h2{
 }
 .cajaTarjeta {
     position: relative;
-    width: 400px;
-    height:  261px;
-}
-.cajaTarjetaImgen{
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 .seguridad {
     margin-top: 100px;
-}
-
-.pasoTexto {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 200px;
-    height: 200px;
 }
 .seguridadTexto {
     display: flex;
@@ -159,11 +150,11 @@ h1,h2{
     flex-flow: row wrap;
 }
 .seguridadImg img{
-    width: 600px;
+    width: 100%;
     height: auto;
 }
 .seguridadIconos{
-    width: 30px;
+    width: 10%;
     height: auto;
     margin-left: 5px;
 }
@@ -177,12 +168,17 @@ h1,h2{
     justify-content: center;
     text-align: center;
 }
+.home2Texto p {
+    position:absolute;
+    font-size: 80px;
+    font-family:'Fredoka One';
+}
 .home2Img {
     display: flex;
     flex-flow: row wrap;
 }
 .home2Img img{
-    width: 716px;
+    width: 100%;
     height: auto;
     z-index: 3;
 }
@@ -244,21 +240,21 @@ h1,h2{
 }
 .caja{
     margin-top: 10px;
-    width: 450px;
+    width: 100%;
     border-radius: 1rem;
     box-shadow: -5px 5px 10px 0.2px  rgb(172, 131, 131);
     background-color: #F24C27;
 }
 .caja2 {
     margin-top: 10px;
-    width: 450px;
+    width: 100%;
     border-radius: 1rem;
     box-shadow: -5px 5px 10px 0.2px  rgb(172, 131, 131);
     background-color: #04B2D9;
 }
 .caja3 {
     margin-top: 10px;
-    width: 450px;
+    width: 100%;
     border-radius: 1rem;
     box-shadow: -5px 5px 10px 0.2px  rgb(172, 131, 131);
     background-color: #F29F05;
@@ -270,10 +266,6 @@ h1,h2{
     justify-content: center;
     align-items: center;
 }
-.cajaTitulo button{
-    border: none;
-    outline:none;
-}
 .cajaTexto{
     display: flex;
     flex-flow: row wrap;
@@ -281,198 +273,25 @@ h1,h2{
     align-items: center;
 }
 .preciosDescripcionImg img{
-    width: 500px;
-    height: auto;
-}
-/* Responsive */ 
-@media  (max-width:795px){
-    
-    .home {
-        margin-top: 100px;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .homeTexto {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .homeImg {
-        display: none;
-    }
-    .tarjeta{
-        width: 100%;
-        background-color: #F24C27;
-    }
-    .tarjetaDescripcion{
-        padding-top: 50px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
-    .tarjetaDescripcion1{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .tarjetaDescripcion2{
-        display: none;
-    }
-    .seguridad {
-        display: none;
-        
-    }
-    }
-
-@media (min-width:796px) and (max-width:1000px){
-    
-.home {
-    margin-top: 100px;
-}
-.homeTexto {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.homeImg {
-    display: flex;
-    flex-flow: row wrap;
-}
-.homeImg img{
-    width: 350px;
-    height: auto;
-    z-index: 3;
-}
-.tarjeta{
     width: 100%;
-    background-color: #F24C27;
-}
-.tarjetaDescripcion{
-    padding-top: 50px;
-}
-.tarjetaDescripcion1{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-.tarjetaDescripcion2{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-.tarjetaDescripcion2 img{
-    width: 200px;
     height: auto;
-}
-.seguridad {
-    margin-top: 100px;
-}
-.seguridad h2{
-    padding-left: 30px
-}
-.pasoTexto {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-}
-.seguridadTexto {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    text-align: center;
-}
-.seguridadImg {
-    display: flex;
-    flex-flow: row wrap;
-}
-.seguridadImg img{
-    width: 300px;
-    height: auto;
-}
 }
 
-@media (min-width:1000px) and (max-width:1400px){
-    
-    .home {
-        margin-top: 100px;
-    }
-    .homeTexto {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .homeImg {
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .homeImg img{
-        width: 500px;
-        height: auto;
-        z-index: 3;
-    }
-    .tarjeta{
-        width: 100%;
-        background-color: #F24C27;
+@media (max-width:1000px){
+    .tarjetaDescripcion2 {
+        display: none;
     }
     .tarjetaDescripcion{
-        padding-top: 50px;
-    }
-    .tarjetaDescripcion1{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .tarjetaDescripcion2{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
     }
-    .tarjetaDescripcion2 img{
-        width: 350px;
-        height: auto;
+    .homeTextoTitulo p{
+        font-size: 25px;
+        font-family:'Fredoka One';
     }
-    .seguridad {
-        margin-top: 100px;
-    }
-    .seguridad h2{
-        padding-left: 30px
-    }
-    .pasoTexto {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 200px;
-        height: 200px;
-    }
-    .seguridadTexto {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    .seguridadImg {
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .seguridadImg img{
-        width: 450px;
-        height: auto;
+    .home2Texto p{
+        font-size: 40px;
+        font-family:'Fredoka One';
     }
     }

@@ -12,7 +12,7 @@
     <title>Mi Tarjeta</title>
 </head>
 <body>
-    <img class="olasCelestesClarasDown" src="./../img/olatranspab.svg" alt="">
+    <!-- <img class="olasCelestesClarasDown" src="./../img/olatranspab.svg" alt=""> -->
     <header>
         <div class="navegador container d-flex justify-content-between">
             <div class="navTitulo ">
@@ -53,7 +53,10 @@
     <div class="container">
         <div class="home2 row">
             <div class="home2Texto col-6">
-                <h2>Beneficios</h2>
+                <p>Beneficios</p>
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#25A9DF" d="M48.5,-58C57.9,-49.8,57.4,-29.9,61,-10.6C64.6,8.7,72.3,27.4,66.6,39.6C61,51.8,42,57.4,23.2,64.6C4.5,71.8,-14,80.4,-32.2,78.2C-50.4,76,-68.4,63,-75.9,45.8C-83.4,28.7,-80.5,7.5,-72.9,-8.9C-65.3,-25.3,-53,-36.9,-40,-44.4C-27.1,-52,-13.5,-55.5,3,-59.1C19.5,-62.6,39,-66.2,48.5,-58Z" transform="translate(100 100)" />
+                </svg>
             </div>
             <div class="home2Img col-6">
                 <img src="../img/tarjetapensando.png" alt="">
@@ -111,12 +114,12 @@
                     </div>
                 </div>
             </div>
-            <div class="preciosDescripcion">
-                <div class="preciosDescripcionImg">
+            <div class="preciosDescripcion row">
+                <div class="preciosDescripcionImg col-6">
                     <img src="../img/plata.png" alt="">
                 </div>
-                <div class="">
-                    <div class="accordion preciosDescripcionCajas" id="accordionExample"> 
+                <div class="col-6">
+                    <div class="accordion preciosDescripcionCajas " id="accordionExample"> 
                         <div class="caja" id="headingOne">
                                 <button class="btn btn-block cajaTitulo" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <h3>Mi tarjeta piensa en vos</h3>
@@ -158,20 +161,11 @@
         <div class="footerGlobal">
             <section class="container contenedorfooterGlobal">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-4">
                         <h6><b>Mi Tarjeta</b></h6>
                         <p>Lo mejor de una tarjeta online</p>
                     </div>
-                    <div class="col-3">
-                        <h6><b>Productos</b></h6>
-                        <ul class="footer__lista">
-                            <li class="footer__lista--item"><a href="">Tecnologia</a></li>
-                            <li class="footer__lista--item"><a href="">Juguetes</a></li>
-                            <li class="footer__lista--item"><a href="">Deporte</a></li>
-                            <li class="footer__lista--item"><a href="">Ropa</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
+                    <div class="col-4">
                         <h6><b>Compañia</b></h6>
                         <ul class="footer__lista">
                             <li class="footer__lista--item"><a href="">Contactate con nosotros</a></li>
@@ -179,7 +173,7 @@
                             <li class="footer__lista--item"><a href="">Mandanos un mail</a></li>
                         </ul>
                     </div>
-                    <div class="col-3">
+                    <div class="col-4">
                         <h6><b> Seguinos</b></h6>
                         <ul class="footer__lista">
                             <li class="footer__lista--item"><a href="">Instagram</a></li>
