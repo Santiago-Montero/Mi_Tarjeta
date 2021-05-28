@@ -136,14 +136,66 @@ h1,h2{
     width: 100%;
     height: auto;
 }
+.seccionComentarios{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.comentario {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.comentarioTitulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.comentarioCajas{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #04B2D9;
+    width: 30%;
+}
+.comentarioCajasFoto{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+.comentarioCajasFotoImg{
+    width: 100%;
+    height: auto;
+}
 .seguridad {
     margin-top: 100px;
+}
+.seguridadContenedor{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 .seguridadTexto {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
+}
+.seguridadCaja{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.seguridadTitulo{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 .seguridadImg {
     display: flex;
@@ -154,9 +206,14 @@ h1,h2{
     height: auto;
 }
 .seguridadIconos{
-    width: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 50px;
+}
+.seguridadIconos img{
+    width: 100%;
     height: auto;
-    margin-left: 5px;
 }
 
 /* descripcion */ 
