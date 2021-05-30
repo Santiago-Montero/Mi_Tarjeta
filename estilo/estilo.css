@@ -99,9 +99,15 @@ h1,h2{
 }
 .tarjetaDescripcion1{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
+}
+.tarjetaDescripcion1 li{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    list-style: none;
 }
 .tarjetaDescripcion2{
     display: flex;
@@ -119,9 +125,8 @@ h1,h2{
     text-align: center;
 }
 .tarjetaIconos{
-    width:50px;
-    height: auto;
-    margin:10px;
+    width: 60px ;
+    height:auto ;
 }
 .contenedorTarjeta{
     position: relative;
@@ -215,6 +220,48 @@ h1,h2{
     width: 100%;
     height: auto;
 }
+.preciosHome {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+.preciosHomeCeropeso {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.precioHomeSigno{
+    text-align: center;
+    font-family:'Fredoka One', cursive;
+    font-size: 60px;
+    color: #04B2D9;
+}
+.precioHomeCero{
+    text-align: center;
+    font-family:'Fredoka One', cursive;
+    font-size: 100px;
+    color: #04B2D9;
+}
+.precioHomeTitulo{
+    text-align: center;
+    font-family:'Fredoka One', cursive;
+    font-size: 60px;
+}
+.precioHomeBoton {
+    padding: 18px 36px;
+    border: none;
+    border-radius: 61px;
+    box-shadow: inset 0 0 0 2px #04B2D9;
+    transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);
+}
+.precioHomeBoton:hover {
+    box-shadow: inset 0 0 0 4px #04B2D9;
+    color: #04B2D9;
+}
+
 
 /* descripcion */ 
 
@@ -243,6 +290,7 @@ h1,h2{
 .beneficiosCajas{
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content: space-between;
 }
 .marcas{
@@ -329,6 +377,7 @@ h1,h2{
     justify-content: center;
     align-items: center;
 }
+
 .preciosDescripcionImg img{
     width: 100%;
     height: auto;
@@ -350,5 +399,14 @@ h1,h2{
     .home2Texto p{
         font-size: 40px;
         font-family:'Fredoka One';
+    }
+    .beneficiosCajas{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .preciosDescripcionImg{
+        display: none;
     }
     }

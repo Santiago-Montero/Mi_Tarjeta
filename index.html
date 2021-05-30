@@ -30,7 +30,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./paginas/descripcion.html">Beneficios</a>
                         </li>
-                        <li class="nav-item">
+                        <li  class="nav-item">
                             <a class="nav-link" href="./paginas/descripcion.html">¿Quienes Somos?</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -77,32 +77,20 @@
                 <h2>Una tarjeta para todo</h2>
             </div>
             <div class="tarjetaDescripcion row">
-                <div class="tarjetaDescripcion1 col-3">
-                    <div class="tarjetaDescripcionTexto">
-                        <div class="tarjetaDescripcionTextoIcono">
-                            <img class="tarjetaIconos"src="./img/corazon.png" alt="">
-                        </div>
-                        <div class="tarjetaDescripcionTextoTitulo">
-                            <h6>La mejor tarjeta online </h6>
-                        </div>
-                    </div>
-                    <div class="tarjetaDescripcionTexto">                        
-                        <div class="tarjetaDescripcionTextoIcono">
-                            <img class="tarjetaIconos"src="./img/tiempo.png" alt="">
-                        </div>
-                        <div class="tarjetaDescripcionTextoTitulo">
-                            <h6>No pierdas mas tiempo</h6>
-                        </div>
-                    </div>
-                    <div class="tarjetaDescripcionTexto">
-                        <div class="tarjetaDescripcionTextoIcono">
-                            <img class="tarjetaIconos"src="./img/globo.png" alt="">
-                        </div>
-                        <div class="tarjetaDescripcionTextoTitulo">
-                            <h6>Chatea con nosotros</h6>
-                        </div>                       
-                    </div>
-                </div>
+                <ul class="tarjetaDescripcion1 col-3">
+                    <li class="tarjetaLista">
+                        <img class="tarjetaIconos" src="./img/corazon.png" alt="">
+                        <h6>La mejor tarjeta online </h6>
+                    </li>
+                    <li class="tarjetaLista">
+                        <img class="tarjetaIconos" src="./img/globo.png" alt="">
+                        <h6>Chatea con nosotros</h6>
+                    </li>
+                    <li class="tarjetaLista">
+                        <img class="tarjetaIconos" src="./img/tiempo.png" alt="">
+                        <h6>No pierdas mas tiempo </h6>
+                    </li>
+                </ul>
                 <div class="tarjetaDescripcion2 col-6">
                     <div class="contenedorTarjeta">
                         <div class="cajaTarjeta">
@@ -112,32 +100,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="tarjetaDescripcion1  col-3">
-                    <div class="tarjetaDescripcionTexto">
-                        <div class="tarjetaDescripcionTextoTitulo">
-                            <h6>Configurala a tu manera</h6>
-                        </div>
-                        <div class="tarjetaDescripcionTextoIcono">
-                            <img class="tarjetaIconos"src="./img/configuracion.png" alt="">
-                        </div>
-                    </div>
-                    <div class="tarjetaDescripcionTexto">
-                        <div class="tarjetaDescripcionTextoTitulo">
-                            <h6>Tus datos en la nube</h6>
-                        </div>
-                        <div class="tarjetaDescripcionTextoIcono">
-                            <img class="tarjetaIconos"src="./img/nube.png" alt="">
-                        </div>
-                    </div>
-                    <div class="tarjetaDescripcionTexto">
-                        <div class="tarjetaDescripcionTextoTitulo">
-                            <h6>No hay letra chica</h6>
-                        </div>
-                        <div class="tarjetaDescripcionTextoIcono">
-                            <img class="tarjetaIconos"src="./img/lupa.png" alt="">
-                        </div>
-                    </div>
-                </div>
+                <ul class="tarjetaDescripcion1 col-3">
+                    <li class="tarjetaLista">
+                        <img class="tarjetaIconos" src="./img/configuracion.png" alt="">
+                        <h6>Configurala a tu manera</h6>
+                    </li>
+                    <li class="tarjetaLista">
+                        <img class="tarjetaIconos" src="./img/nube.png" alt="">
+                        <h6>Tus datos en la nube</h6>
+                    </li>
+                    <li class="tarjetaLista">
+                        <img class="tarjetaIconos" src="./img/lupa.png" alt="">
+                        <h6>No hay letra chica</h6>
+                    </li>
+                </ul>                
             </div>
         </div>
     </div>
@@ -226,7 +202,7 @@
                                 <img  src="./img/personal.png" alt="">
                             </div>
                             <div class="seguridadTextoDescrip">
-                                <p>Vas a poder ingresar desde un dispositivo a la vez a tu cuenta..</p> 
+                                <p>Vas a poder ingresar desde un dispositivo a la vez a tu cuenta.</p> 
                             </div>
                         </div>
                     </div>
@@ -247,6 +223,20 @@
             </div>
         </div>
     </div>
+    <!--PRECIOS-->
+    <div class="container">
+        <div class="preciosHome">
+            <div class="preciosHomeCeropeso">
+                <p class="precioHomeSigno">$</p>
+                <p class="precioHomeCero">0</p>
+            </div>
+            <p class="precioHomeTitulo">Disfrutá de la mejor tarjeta sin los costos de los bancos tradicionales</p>
+            <a href="./paginas/descripcion.html#precios" class="precioHomeBoton">LEER MAS</a>
+        </div>
+    </div>
+    
+    <!--PRECIOS-->
+
     <!-- FOOTER -->
     <footer>
         <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C119.35,271.88 363.15,-124.83 501.97,59.70 L512.13,174.17 L0.00,150.00 Z" style="stroke: none; fill: #04B2D9;"></path></svg></div>
@@ -270,7 +260,6 @@
                         <ul class="footer__lista">
                             <li class="footer__lista--item"><a href="">Instagram</a></li>
                             <li class="footer__lista--item"><a href="">Twitter</a></li>
-                            <li class="footer__lista--item"><a href="">Linkedin</a></li>
                             <li class="footer__lista--item"><a href="">Github</a></li>
                         </ul>
                     </div>
