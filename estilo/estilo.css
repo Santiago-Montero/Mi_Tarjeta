@@ -407,7 +407,7 @@ h1,h2{
 
 /*Quienes somos*/
 .quienesSomos{
-    margin-top: 100px;
+    margin-top: 58px;
     background-color:#F29F05 ;
 }
 .quienesSomosTitulo {
@@ -487,6 +487,104 @@ h1,h2{
     justify-content: center;
     width: 70%;
 }
+/*soporte */ 
+.preguntas{
+    background-color: #ee795f;
+    margin-top: 58px;
+}
+.preguntasBuscador{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.preguntasBarra{
+    width:50%;
+    margin:10px;
+    padding:10px 16px;
+    border-radius:32px;
+    outline:none;
+    border:2px solid #F29F05;
+    background:#F29F05;
+    transition:all 0.5s;
+}
+.preguntasBarra:focus{
+    background:#F29F05;
+    width:100%;
+}
+.preguntasImg{
+    display: flex;
+    justify-content: center;
+}
+.preguntasImg img {
+    width: 50%;
+    height: auto;
+}
+.errores {
+    display: flex;
+    align-items: center;
+}
+.erroresTitulo {
+    display: flex;
+    justify-content: center;
+}
+.erroresTitulo h2{
+    font-size: 80px;
+}
+.erroresImg  {
+    width: 100%;
+    height: auto;
+}
+.erroresImg img {
+    width: 100%;
+    height: auto;
+}
+.form{
+    margin-top: 50px;
+    width:300px;
+    background:#e6e6e6;
+    border-radius:8px;
+    padding:20px 30px;
+    box-sizing:border-box;
+}
+.form h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:100%;
+    color:#0D0D0D;
+    border-bottom:3px solid #053259;
+}
+.formLlenar{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition:all .3s;
+    border-bottom:2px solid #04B2D9;
+}
+.formLlenar:focus{
+    border-bottom:2px solid #053259;
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    border:2px solid #F29F05;
+    background:0;
+    color:#0D0D0D;
+    cursor:pointer;
+    transition:all .3s;
+    border-radius: 1rem;
+}
+button:hover{
+    background:#F29F05;
+    color:#fff;
+}
+
+
 @media (max-width:1000px){
     .tarjetaDescripcion2 {
         display: none;
