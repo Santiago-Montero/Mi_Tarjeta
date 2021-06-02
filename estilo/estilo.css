@@ -424,8 +424,68 @@ h1,h2{
     text-align: center;
     margin-top: 80px;
 }
+.quienesSomosCajaTexto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+.quienesSomosCajaImg {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.quienesSomosCajaImg img{
+    width: 100%;
+    height: auto;
+}
 .quienesSomosDescripcionTextoh3 h3{
     font-size: 50px;
+}
+.pilares{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.pilaresTitulo{
+    display: flex;
+    justify-content: center;
+}
+.pilaresContenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.pilaresCaja{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F24C27;
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+.pilaresCajaImg {
+    border-radius:80%;
+    background-color: #053259;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.pilaresCajaImg img{
+    padding: 10px;
+    width: 50px;
+    height:auto;
+}
+.pilaresCajaTitulo {
+    margin-top: 10px;
+}
+.pilaresCajaTexto{
+    display: flex;
+    justify-content: center;
+    width: 70%;
 }
 @media (max-width:1000px){
     .tarjetaDescripcion2 {
