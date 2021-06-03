@@ -566,7 +566,7 @@ h1,h2{
 .formLlenar:focus{
     border-bottom:2px solid #053259;
 }
-button{
+.botonError{
     float:right;
     padding:8px 12px;
     margin:8px 0 0;
@@ -577,7 +577,7 @@ button{
     transition:all .3s;
     border-radius: 1rem;
 }
-button:hover{
+.botonError:hover{
     background:#F29F05;
     color:#fff;
 }
