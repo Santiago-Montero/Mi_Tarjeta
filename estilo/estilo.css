@@ -512,7 +512,7 @@ h1,h2{
 .oficinasCaja{
     margin-bottom: 80px;
     background-size: cover;
-    background-image: url("../img/oficina.jpg");
+    background-image: url("../img/oficina-min.jpg");
     width: 150px;
     height: 300px;
     border-radius: 1rem;
@@ -523,7 +523,7 @@ h1,h2{
 .oficinasCaja2{
     margin-bottom: 80px;
     background-size: cover;
-    background-image: url("../img/oficina2.jpg");
+    background-image: url("../img/oficina2-min.jpg");
     width: 150px;
     height: 300px;
     border-radius: 1rem;
@@ -533,7 +533,7 @@ h1,h2{
 }
 .oficinasCaja3{
     background-size: cover;
-    background-image: url("../img/oficina3.jpg");
+    background-image: url("../img/oficina3-min.jpg");
     width: 150px;
     height: 300px;
     border-radius: 1rem;
@@ -543,7 +543,7 @@ h1,h2{
 }
 .oficinasCaja4{
     background-size: cover;
-    background-image: url("../img/oficina4.jpg");
+    background-image: url("../img/oficina4-min.jpg");
     width: 150px;
     height: 300px;
     border-radius: 1rem;
