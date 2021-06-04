@@ -78,6 +78,12 @@ h1,h2{
     font-size: 80px;
     font-family:'Fredoka One';
 }
+.homeImg {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 .homeImg img{
     width: 100%;
     height: auto;
@@ -202,6 +208,12 @@ h1,h2{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+}
+.seguridadImg {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 .seguridadImg img{
     width: 100%;
